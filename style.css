@@ -1,0 +1,132 @@
+/* colors and fonts */
+
+body {
+	background: #f6f6f6;
+	color: rgb(30,30,30); 
+	font-family: 'Lora', serif;
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	color: #563b5c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+}
+h2 {
+	color: #563b5c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #cd12c7;
+	font-size: 16px
+	font-weight: 600;
+}
+a:hover {
+	color: #3c3a3a;
+}
+
+
+
+/* Custom design with class */
+
+#kenzy{
+	width: 300px;
+	margin: 20px 0px;
+}
+
+#mercedes {
+	width: 500px;
+	margin: 20px 0px;
+}
+
+#yeezy {
+	width: 500px;
+	margin: 20px 0px;
+}
+
+#grant {
+	width: 500px;
+	margin: 20px 0px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 600;
+	}
+}
+
+
+
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(30,30,30,0.5);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle	{
+	border-radius: 50%;
+}
+
+
+.btn-blue {
+	background-color: #cd12c7;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: rgb(230, 230, 230);
+	color: #cd12c7;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	color: #cd12c7;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
